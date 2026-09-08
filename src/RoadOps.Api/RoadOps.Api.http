@@ -1,4 +1,4 @@
-@host = http://localhost:5000
+@host = http://localhost:54266
 
 POST {{host}}/ml/train
 
@@ -16,3 +16,6 @@ POST {{host}}/rag/ask
 Content-Type: application/json
 
 {"question":"When must salt spreading begin?","topK":3}
+
+###
+POST {{host}}/evaluation/run
