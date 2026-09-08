@@ -1,0 +1,7 @@
+[
+  { "question": "When should winter pre-treatment begin?", "expectedDocument": "winter-maintenance", "reference": "Below 1 C pavement forecast with precipitation expected." },
+  { "question": "Which inspection findings need a work order?", "expectedDocument": "road-inspection", "reference": "Any defect creating an immediate road-user hazard." },
+  { "question": "What incidents require emergency services?", "expectedDocument": "incident-response", "reference": "Injuries, fuel spills, or blocked lanes." },
+  { "question": "Which fleet defects remove a vehicle from service?", "expectedDocument": "fleet-procedures", "reference": "Defects affecting braking, steering, or warning lights." },
+  { "question": "When must a road sensor be investigated?", "expectedDocument": "sensor-maintenance", "reference": "When it differs from a calibrated probe by more than 2 C." }
+]

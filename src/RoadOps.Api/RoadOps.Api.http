@@ -1,0 +1,18 @@
+@host = http://localhost:5000
+
+POST {{host}}/ml/train
+
+###
+POST {{host}}/ml/predict
+Content-Type: application/json
+
+{"vehicleSpeed":55,"ambientTemperature":-4,"rainfall":18,"roadTemperature":-5,"vibration":6}
+
+###
+POST {{host}}/rag/ingest
+
+###
+POST {{host}}/rag/ask
+Content-Type: application/json
+
+{"question":"When must salt spreading begin?","topK":3}
